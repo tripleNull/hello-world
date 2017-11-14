@@ -1,3 +1,3 @@
 # hello-world
-tutorial repository
+rust tutorial repository, just learning rust
 # hello world
