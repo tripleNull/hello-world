@@ -1,5 +1,6 @@
 
-
+/* Trying different methods of output.
+*/
 fn main() {
     let mut x = 1;
     loop {

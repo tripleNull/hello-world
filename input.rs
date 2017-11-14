@@ -1,6 +1,8 @@
 use std::{i32};
 use std::io::stdin;
 
+/* Try out some user input
+*/
 fn main() {
 
 	let p1 = "You Guessed ";
