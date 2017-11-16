@@ -3,13 +3,14 @@
 */
 fn main() {
     let mut x = 1;
+    let num1 = 10;
     loop {
     	if (x % 2) == 0 {
     		println!("{}",x);
     		x += 1;
     		continue;
     	}
-    	if x > 10 {
+    	if x > num1 {
     		break;
     	}
     	x += 1;
@@ -18,7 +19,7 @@ fn main() {
 
     let mut y = 1;
 
-    while y <= 10 {
+    while y <= num1 {
     	println!("{}", y);
     	y += 1;
     }
