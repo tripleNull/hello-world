@@ -2,9 +2,15 @@
 /* Trying different methods of output.
 */
 fn main() {
-    let mut x = 1;
+
+    //constants
     let num1 = 10;
     let num2 = 1;
+    
+    //mutables
+    let mut x = num2;
+    let mut y = num2;
+
     loop {
     	if (x % 2) == 0 {
     		println!("{}",x);
@@ -17,8 +23,6 @@ fn main() {
     	x += num2;
     	continue;
     }
-
-    let mut y = 1;
 
     while y <= num1 {
     	println!("{}", y);
