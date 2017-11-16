@@ -11,6 +11,7 @@ fn main() {
     let mut x = num2;
     let mut y = num2;
 
+    //print out even numbers less than 10
     loop {
     	if (x % 2) == 0 {
     		println!("{}",x);
@@ -24,6 +25,7 @@ fn main() {
     	continue;
     }
 
+    //print out all numbers less than 10
     while y <= num1 {
     	println!("{}", y);
     	y += num2;
@@ -34,6 +36,7 @@ fn main() {
     let mut indiv_word = rand_string.split_whitespace();
     let mut iter = indiv_word.next();
 
+    //print out each word individually
     loop{
     	match iter {
     		Some(x) => println!("I have a word: {}", x),
