@@ -4,16 +4,17 @@
 fn main() {
     let mut x = 1;
     let num1 = 10;
+    let num2 = 1;
     loop {
     	if (x % 2) == 0 {
     		println!("{}",x);
-    		x += 1;
+    		x += num2;
     		continue;
     	}
     	if x > num1 {
     		break;
     	}
-    	x += 1;
+    	x += num2;
     	continue;
     }
 
@@ -21,7 +22,7 @@ fn main() {
 
     while y <= num1 {
     	println!("{}", y);
-    	y += 1;
+    	y += num2;
     }
 
     let rand_string = "I am a random string";
